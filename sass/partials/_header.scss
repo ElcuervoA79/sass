@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 2px;
+    background-color: rgba(215, 173, 209, 0.59);
+    font-size: $mascchico;
+    color: $primario;
+    
+    a{
+        color: $primario;
+    }
+        
+  }
+  
+  .header__imgLogo {
+    max-width: 120px;
+    border-radius: 100px;
+  }

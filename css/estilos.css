@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* colores texto */
+/* tamaño letra */
+/* espaciado*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+img {
+  max-width: 100%; }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 2px;
+  background-color: rgba(215, 173, 209, 0.59);
+  font-size: 1.4em;
+  color: black; }
+  header a {
+    color: black; }
+
+.header__imgLogo {
+  max-width: 120px;
+  border-radius: 100px; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  background-color: rgba(196, 189, 189, 0.815); }
+  footer section p {
+    color: black;
+    font-size: 1.5em; }
+
+main p {
+  font-size: 2.2em; }
+
+main h2 {
+  font-size: 5.2en; }

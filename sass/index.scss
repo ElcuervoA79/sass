@@ -1,5 +1,10 @@
 @import "./misc/variables";
 @import "./misc/normalize";
+@import "./mixins";
 @import "./partials/header";
 @import "./partials/footer";
-@import "./views/home"
+@import "./views/home";
+@import "./views/comocomprar";
+@import "./views/dama";
+@import "./views/kids";
+@import "./views/unisex"

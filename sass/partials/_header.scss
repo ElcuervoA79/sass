@@ -1,7 +1,8 @@
 header {
-    display: flex;
+  @include flex(center,space-around,center);
+    /*display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;*/
     padding: 2rem 0;
     border-bottom: 2px;
     background-color: rgba(215, 173, 209, 0.59);
@@ -9,7 +10,7 @@ header {
     color: $primario;
     
     a{
-        color: $primario;
+        color:map-get($colores, primario);
     }
         
   }
@@ -17,4 +18,9 @@ header {
   .header__imgLogo {
     max-width: 200px;
     border-radius: 100px;
+  }
+  .titulo__pagina{
+    color:map-get($colores, primario);
+    font-size: $muygrande;  
+    text-decoration:underline;  
   }

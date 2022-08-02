@@ -1,7 +1,8 @@
 footer {
-    display: flex;
+  @include flex(null,center, center);
+    /*display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;*/
     font-size: 16px;
     background-color: rgba(196, 189, 189, 0.815);
   

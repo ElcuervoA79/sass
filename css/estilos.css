@@ -2,6 +2,9 @@
 /* colores texto */
 /* tamaño letra */
 /* espaciado*/
+/* map */
+*::after,
+*::before,
 * {
   margin: 0;
   padding: 0;
@@ -19,8 +22,12 @@ img {
 
 header {
   display: flex;
+  flex-direction: center;
   justify-content: space-around;
   align-items: center;
+  /*display: flex;
+    justify-content: space-around;
+    align-items: center;*/
   padding: 2rem 0;
   border-bottom: 2px;
   background-color: rgba(215, 173, 209, 0.59);
@@ -33,10 +40,18 @@ header {
   max-width: 200px;
   border-radius: 100px; }
 
+.titulo__pagina, .titulo__pagina-secundarias {
+  color: black;
+  font-size: 4em;
+  text-decoration: underline; }
+
 footer {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
   font-size: 16px;
   background-color: rgba(196, 189, 189, 0.815); }
   footer section p {
@@ -47,4 +62,7 @@ main p {
   font-size: 2.2em; }
 
 main h2 {
-  font-size: 5.2en; }
+  font-size: 3.2em; }
+
+.colorTextoInfo {
+  color: black; }

@@ -1,0 +1,25 @@
+Agregue estas Keywords
+
+Inicio: 
+<meta name="description" content="Encontra todo lo que necesitas y la mejor calidad en calzados">
+<meta name="keywords" content="calzado, unisex, dama, kids, adidas, all satar">
+
+Pagina Dama:
+<meta name="description" content="Los mejores calzados de dama y la mejor calidad">
+<meta name="keywords" content="calzado, dama, all satar">
+
+Pagina Kids:
+<meta name="description" content="Los mejores calzados para los mas chiquitos y la mejor calidad">
+<meta name="keywords" content="calzado, kids, niños, niñas, botitas">
+
+Pagina Unisex:
+<meta name="description" content="Los mejores calzados unisex y la mejor calidad">
+<meta name="keywords" content="calzado, adidas">
+
+Pagina Como comprar:
+<meta name="description" content="como comprar los mejores calzados para todos y la mejor calidad">
+<meta name="keywords" content="registro, calzado, comprar">
+
+Pagina Registro:
+<meta name="description" content="registrate para comprar los mejores calzados para todos y la mejor calidad">
+<meta name="keywords" content="registro, calzado, comprar">

@@ -15,7 +15,7 @@ html {
 
 main {
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: auto; }
 
 img {
   max-width: 100%; }
@@ -58,11 +58,12 @@ footer {
     color: black;
     font-size: 1.5em; }
 
-main p {
-  font-size: 2.2em; }
-
-main h2 {
-  font-size: 3.2em; }
+main {
+  margin: 25px; }
+  main p {
+    font-size: 2.2em; }
+  main h2 {
+    font-size: 3.2em; }
 
 .colorTextoInfo {
   color: black; }

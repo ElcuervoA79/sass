@@ -30,9 +30,6 @@ header {
   flex-direction: center;
   justify-content: space-around;
   align-items: center;
-  /*display: flex;
-    justify-content: space-around;
-    align-items: center;*/
   padding: 2rem 0;
   border-bottom: 2px;
   background-color: rgba(215, 173, 209, 0.59);
